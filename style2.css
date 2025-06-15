@@ -1,0 +1,115 @@
+/* Navbar atas: Registrasi & Login */
+.top-navbar {
+  background-color: black;
+  padding: 10px 30px;
+}
+
+.top-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.auth-buttons .btn {
+  padding: 6px 12px;
+  margin-left: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+
+.registrasi {
+  background-color: #1E90FF; /* Biru cerah */
+}
+
+.login {
+  background-color: #003366; /* Biru tua */
+}
+
+.btn:hover {
+  opacity: 0.85;
+  transition: 0.3s;
+}
+
+/* Branding logo + tulisan */
+.branding {
+  display: flex;
+  align-items: center;
+  padding: 20px 30px;
+}
+
+.site-title {
+  font-size: 24px;
+  margin-left: 10px;
+  color: #003366;
+}
+
+/* Menu navigasi utama */
+.navbar {
+  background: linear-gradient(to right, #000c45, #0077b6); /* Biru gelap ke biru cerah */
+  margin: 0;
+  padding: 15px 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin: 0 10px;
+}
+
+.menu li a {
+  padding: 10px 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+background-color: white;
+      font-family: sans-serif;
+    }
+    h1{
+      text-align: center;
+    }
+
+    .container-buku {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      align-items: flex-start;
+      margin-top: 20px;
+    }
+
+    .buku {
+      text-align: center;
+      width: 120px;
+    }
+
+    .buku img {
+      width: 100px;
+      height: 150px;
+    }
+
+    .kotak-buku {
+      width: 150px;
+      padding: 10px;
+      margin: 10px;
+      border: 5px solod #ccc;
+      border-radius: 15px;
+      text-align: center;
+      display: inline-block;
+      background-color: #f9f9f9;
+      box-shadow: 0 2px 5px rgba(0,0,0,0,1);
+      border-left: 5px solid #007bff;
